@@ -671,7 +671,7 @@ module.exports = !global.ZeresPluginLibrary ? MissingZeresDummy : (([Pl, Lib]) =
                 React.createElement(
                   Tooltip,
                   {
-                    text: "Hidden Channel"
+                    text: "Canal Oculto"
                   },
                   (props) =>
                     React.createElement(
@@ -790,7 +790,7 @@ module.exports = !global.ZeresPluginLibrary ? MissingZeresDummy : (([Pl, Lib]) =
           const HiddenCategoryChannel = new Channel({
             guild_id: guild_id,
             id: channelId,
-            name: 'Hidden Channels',
+            name: 'Canais Ocultos',
             type: DiscordConstants.ChannelTypes.GUILD_CATEGORY
           });
 
@@ -806,7 +806,7 @@ module.exports = !global.ZeresPluginLibrary ? MissingZeresDummy : (([Pl, Lib]) =
           const HiddenCategoryChannel = new Channel({
             guild_id: guildId,
             id: hiddenCategoryId,
-            name: "Hidden Channels",
+            name: "Canais Ocultos",
             type: DiscordConstants.ChannelTypes.GUILD_CATEGORY                 
           });
 
